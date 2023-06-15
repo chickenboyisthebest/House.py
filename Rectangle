@@ -1,0 +1,21 @@
+import math
+import turtle 
+wn = turtle.Screen()
+t = turtle.Turtle()
+wn.bgcolor("skyblue")
+
+# Define a funtion to draw and fill a rectangle with the given
+# dimensions and color
+	def drawRectangle(t, width, height, color):
+	  t.fillcolor(color)
+	  t.begin_fill()
+	  t.forward(width)
+	  t.left(90)
+	  t.forward(height)
+	  t.left(90)
+	  t.forward(width)
+	  t.left(90)
+	  t.forward(height)
+	  t.left(90)
+	  t.end_fill()
+
